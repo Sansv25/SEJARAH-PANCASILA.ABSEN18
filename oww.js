@@ -5,3 +5,4 @@ document.getElementById('tombol').addEventListener('click', function() {
     // Menggulir ke bawah dengan halus
     document.getElementById('asw').scrollIntoView({ behavior: 'smooth'});
 });
+document.getElementById('audioo').play();
