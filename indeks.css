@@ -4,7 +4,7 @@ body, html {
     size: 100%;
 }
 body {
-    overflow: hi;
+    overflow: hidden;
 }
 .bgvid {
     position: fixed;
