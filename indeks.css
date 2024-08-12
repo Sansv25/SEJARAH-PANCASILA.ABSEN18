@@ -22,7 +22,11 @@ body {
     color: aliceblue;
     font-size: clamp(20px, 4vw, 40px);
     letter-spacing: 0.1em;
-
+}
+.wrapt{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     background-color: rgba(255, 255, 255, 0.5);
@@ -228,6 +232,11 @@ a,i {
 li{
     font-weight: bold;
 }
+@media screen and (min-width:450px) {
+    .wrapt{
+        padding-top: 25px;
+    }
+}
 @media screen and (min-width:700px) {
     h3,p {
         font-size: 1.7vw;
@@ -290,5 +299,8 @@ li{
     }
     .makna{
         min-width: 60vw;
+    }
+    .wrapt{
+        padding-top: 1px;
     }
 }
