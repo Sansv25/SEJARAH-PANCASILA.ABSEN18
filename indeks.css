@@ -1,0 +1,294 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    size: 100%;
+}
+body {
+    overflow: hidden;
+}
+.bgvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.judul-utama {
+    text-align: center;
+    font-family: "Bodoni Moda SC", serif;
+    font-style: normal;
+    color: aliceblue;
+    font-size: clamp(20px, 4vw, 40px);
+    letter-spacing: 0.1em;
+
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 110px;
+    height: 13vh;
+    max-height: 120px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+}
+.logosekolah {
+    padding: 10px;
+    padding-left: 8px;
+    height: 15vmax;
+}
+.logosekolah,.logo79 {
+    min-height: 85px;
+    max-height: 5vh;
+}
+.logo79 { 
+    padding-top: 12px;
+    height: 14vmax;
+}
+.info {
+    padding: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 2vmax;
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(240, 15, 11, 0.7);
+}
+h3 {
+    font-size: 7vw;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.all {
+    padding-bottom: 1cm;
+}
+
+.isi {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 10px;
+}
+h3,p {
+    font-size: 5vw;
+}
+p,li {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.isiakhir {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 10px;
+}
+.img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    display: flex;
+    align-content: center;
+}
+.imgg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 17vmax;
+    min-width: 220px;
+    max-width: 300px;
+    display: flex;
+    align-content: center;
+}
+#pJakarta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.simbol {
+    width: 40vw;
+}
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+.sosmed {
+    display: flex;
+    justify-content: center;
+}
+.makna{
+    min-width: 90vw;
+}
+.wrapp {
+    display: flex;
+    justify-content: center;
+}
+.platform{
+}
+.listsosmed {
+    padding-left: 2px;
+    padding-top: 8px;
+    display: grid;
+}
+.menu-awal {
+    border: 3px solid red;
+    align-items: center;
+    padding: 3vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10%;
+    border-radius: 30px;
+    text-align: center;
+}
+.fungsii {
+    text-align: center;
+}
+#tombol {
+    height: 5vh;
+    width: 18vw;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+i {
+    color: crimson;
+    padding-left: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+a,i {
+    font-size: 3vw;
+}
+.medsos:hover {
+    transform: scale(1.1);
+    color: red;
+}
+.ssaran:hover {
+    transform: scale(1.08);
+    background-color: red;
+    color: white;
+}
+.instruksi{
+    padding-top: 15px;
+}
+.ssaran{
+    margin-left: 30px;
+    width: 30vw;
+    border-radius:10px;
+    height: 5vh;
+    max-width: 200px;
+    max-height: 40px;
+}
+.ABOUT {
+    font-size: 2.3vw;
+    padding-top: 8px;
+}
+.awall {
+    justify-content: center;
+    /* display: flex; */
+}
+#garuda {
+    height: 40vw;
+}
+#perumusannn {
+    list-style-type: decimal;
+}
+.rumus {
+    list-style-type: disc;
+}
+#pancasila {
+    padding-bottom: 2cm;
+}
+.grd {
+    justify-content: center;
+    display: flex;
+}
+.panca {
+    padding-bottom: 20px;
+    list-style-type: decimal;
+}
+.saran {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.rumus {
+    padding-left: 25px;
+}
+#asw{
+    padding-top: 1cm;
+    margin-top: 11cm;
+}
+li{
+    font-weight: bold;
+}
+@media screen and (min-width:700px) {
+    h3,p {
+        font-size: 1.7vw;
+    }
+.simbol {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+    .img {
+        width: 70%;
+    }
+    .judul-utama {
+    }
+    .isi {
+    width: 40vw;
+    margin: 10px;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .all {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    margin-bottom: 10px;
+    display: flex;
+    width: auto;
+    }
+    #asw {
+        margin-top: 16cm;
+    }
+    #garuda {
+        height: 40vw;
+    }
+    .grd {
+        display: flex;
+        flex-direction: column;
+    }
+    .awall {
+        display: flex;
+        justify-content: center;
+    }
+    .ABOUT {
+        font-size: 2vh;
+    }
+    .platform {
+        font-size: 2vh;
+    }
+    i {
+        font-size: 1.7vh;
+    }
+    #aboutscholl {
+        padding-left: 20vw;
+    }
+    .info {
+        margin-left: 20vw;
+        margin-right:20vw;
+        padding: 20px;
+    }
+    .makna{
+        min-width: 60vw;
+    }
+}
